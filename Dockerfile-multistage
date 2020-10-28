@@ -1,4 +1,4 @@
-#docker build -t eltibamoso/api-calculadora:multistage --file Dockerfile-multistage .
+#docker build -t elbalucia/api-calculadora:multistage --file Dockerfile-multistage .
 FROM gradle:6.6.1 as builder
 LABEL stage=builder
 WORKDIR /myapp/
